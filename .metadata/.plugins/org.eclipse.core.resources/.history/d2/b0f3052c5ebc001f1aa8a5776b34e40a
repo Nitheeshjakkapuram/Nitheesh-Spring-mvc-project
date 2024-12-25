@@ -1,0 +1,10 @@
+package com.springbootexamples.springboot.controller;
+
+public class Testcontroller {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

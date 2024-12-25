@@ -1,0 +1,29 @@
+package com.springbootexamples.modelclass;
+
+import lombok.AllArgsConstructor;
+import lombok.Builder;
+import lombok.Data;
+import lombok.NoArgsConstructor;
+@Builder
+@Data
+@AllArgsConstructor
+@NoArgsConstructor///
+public class Productmodel {
+
+	private String name;
+	private int manufactureyr;
+	private int quantity;
+	private double price;
+	
+	public static void main(String[] args) {
+		Productmodel testmodel=Productmodel.builder()
+				           
+				            .name("fooditems")
+				            .manufactureyr(23)
+				            .quantity(25)
+				            .price(100)
+				            .build();
+		System.out.println(testmodel);
+	}
+
+}

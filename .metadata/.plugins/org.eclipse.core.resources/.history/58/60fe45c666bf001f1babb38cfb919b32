@@ -1,0 +1,5 @@
+package com.springbootexamples.service;
+
+public class ProductService {
+
+}

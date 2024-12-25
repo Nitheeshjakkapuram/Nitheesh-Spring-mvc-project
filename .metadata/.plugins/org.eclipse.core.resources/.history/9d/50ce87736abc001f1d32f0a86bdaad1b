@@ -1,0 +1,9 @@
+package com.springbootexamples.springboot.modelclass;
+
+import lombok.Setter;
+
+@Setter
+public class Testmodel {
+	private int age;
+
+}

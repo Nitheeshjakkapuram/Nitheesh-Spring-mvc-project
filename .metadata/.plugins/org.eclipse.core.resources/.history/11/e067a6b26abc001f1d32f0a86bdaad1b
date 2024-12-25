@@ -1,0 +1,28 @@
+package com.springbootexamples.springboot.modelclass;
+
+import lombok.AllArgsConstructor;
+import lombok.Builder;
+import lombok.Data;
+import lombok.NoArgsConstructor;
+import lombok.Setter;
+@Builder
+@Data
+@AllArgsConstructor
+@NoArgsConstructor///
+public class Testmodel {
+	private int empid;
+	private String name;
+	private int age;
+	private double salary;
+	
+	public static void main(String[] args) {
+		Testmodel testmodel=Testmodel.builder()
+				            .empid(123)
+				            .name("nitheesh")
+				            .age(23)
+				            .salary(10000)
+				            .build();
+		System.out.println(testmodel);
+	}
+
+}
